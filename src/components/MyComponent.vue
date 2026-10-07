@@ -30,12 +30,36 @@ export default {
 
 <style scoped>
 .mi-componente {
-  padding: 30px;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 35px;
   font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+  text-align: center;
 }
 
 button {
-  padding: 10px;
+  padding: 12px 24px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #2c3e50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #3498db;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(52, 152, 219, 0.3);
+}
+
+button:active {
+  transform: translateY(0);
 }
 </style>
